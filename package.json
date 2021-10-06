@@ -1,20 +1,32 @@
 {
-  "name": "m8d7",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hashamzafar/m8d7.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hashamzafar/m8d7/issues"
-  },
-  "homepage": "https://github.com/hashamzafar/m8d7#readme"
+	"name": "m8d7",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon ./src",
+		"start": "node ./src"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hashamzafar/m8d7.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hashamzafar/m8d7/issues"
+	},
+	"homepage": "https://github.com/hashamzafar/m8d7#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"socket.io": "^4.2.0"
+	},
+	"devDependencies": {
+		"dotenv": "^10.0.0",
+		"nodemon": "^2.0.13"
+	}
 }
