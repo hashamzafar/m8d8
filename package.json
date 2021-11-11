@@ -23,6 +23,8 @@
 	"dependencies": {
 		"cors": "^2.8.5",
 		"express": "^4.17.1",
+		"express-list-endpoints": "^6.0.0",
+		"mongoose": "^6.0.12",
 		"socket.io": "^4.2.0"
 	},
 	"devDependencies": {
